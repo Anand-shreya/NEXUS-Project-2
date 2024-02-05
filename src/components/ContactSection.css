@@ -1,0 +1,44 @@
+/* ContactSection.css */
+
+.contact-section-Maincontainer {
+  background-color: #243757;
+
+}
+  .contact-section-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #78a0a8;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  /* Add styling for social media icons */
+  .social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.2);
+  }
+  
